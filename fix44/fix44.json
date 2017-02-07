@@ -1,4 +1,5 @@
-{ "fix44":[
+{ "FixVersion":"FIX4.4",
+"Fields":[
 {"Tag":1,"Name":"Account","Type":"String"},
 {"Tag":2,"Name":"AdvId","Type":"String"},
 {"Tag":3,"Name":"AdvRefID","Type":"String"},

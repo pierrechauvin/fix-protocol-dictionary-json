@@ -1,4 +1,5 @@
-{ "fixt11":[
+{ "FixVersion":"FIXT1.1",
+"Fields":[
 {"Tag":7,"Name":"BeginSeqNo","Type":"SeqNum"},
 {"Tag":8,"Name":"BeginString","Type":"String"},
 {"Tag":9,"Name":"BodyLength","Type":"Length"},
