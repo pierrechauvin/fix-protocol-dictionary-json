@@ -3,19 +3,19 @@ This repository hosts a set of JSON-formatted files containing the allowed FIX (
 
 These JSON files are build and maintained based on the work made by the FIX community ():
 
-FIXT 1.1: [Google][1]
-FIX 4.0: [Google][2]
-FIX 4.1: [Google][3]
-FIX 4.2: [Google][4]
-FIX 4.3: [Google][5]
-FIX 4.4: [Google][6]
-FIX 5.0: [Google][7]
-FIX 5.0 SP1: [Google][8]
-FIX 5.0 SP2: [Google][9]
+- FIXT 1.1: [Google][1]
+- FIX 4.0: [Google][2]
+- FIX 4.1: [Google][3]
+- FIX 4.2: [Google][4]
+- FIX 4.3: [Google][5]
+- FIX 4.4: [Google][6]
+- FIX 5.0: [Google][7]
+- FIX 5.0 SP1: [Google][8]
+- FIX 5.0 SP2: [Google][9]
 
 For each FIX protocol version, two files are proposed:
-A "simplified" array of the fields, sorted by their tag number, containing the following values: Tag, Field Name, Type
-An "extended" array of the fields, sorted by their tag number, containing the following values: Tag, Field Name, Type, Description, [TODO]. This file is in average larger by [TODO]% of the "simplified" version.
+- A "simplified" array of the fields, sorted by their tag number, containing the following values: Tag, Field Name, Type.
+- An "extended" array of the fields, sorted by their tag number, containing the following values: Tag, Field Name, Type, Description, [TODO]. This file is in average larger by [TODO]% of the "simplified" version.
 
 All JSON-formatted files complies with the standardization proposal from Google [TODO] and RFCxxx [TODO]. Fields names and descriptions are provided in English, and all files are encoded in UTF-8 [TODO].
 A JSON schema defined in [TODO] allows to validate these files.
