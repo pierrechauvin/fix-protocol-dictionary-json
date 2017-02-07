@@ -3,7 +3,7 @@ This repository hosts a set of JSON-formatted files containing the allowed FIX (
 
 These JSON files are build and maintained based on the work made by the FIX community:
 
-FIXT 1.1: [TODO]
+FIXT 1.1: [TODO][Google][1]
 FIX 4.0: [TODO]
 FIX 4.1: [TODO]
 FIX 4.2: [TODO]
@@ -22,3 +22,4 @@ A JSON schema defined in [TODO] allows to validate these files.
 
 As an exemple, project [TODO] provides a FIX message parser that use all JSON representation of the FIX protocol fields in order to provide a contextual set of information related to each tag present in a given FIX message.
 
+[1]: http://google.com/        "Google"
