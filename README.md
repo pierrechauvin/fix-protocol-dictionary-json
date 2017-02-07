@@ -17,7 +17,8 @@ For each FIX protocol version, two files are proposed:
 - A "simplified" array of FIX fields, sorted by their tag identifier, containing the following values: Tag, Field Name, Type.
 - An "extended" array of FIX fields, sorted by their tag identifier, containing the following values: Tag, Field Name, Type, Description, [TODO]. This file is in average larger by [TODO]% of the "simplified" version.
 
-All JSON-formatted files complies with the standardization proposal from Google [TODO] and RFCxxx [TODO]. Fields names and descriptions are provided in English, and all files are encoded in UTF-8 [TODO].
+All JSON-formatted files complies with the standardization proposal from Google [TODO] and [IETF RFC 7159]
+[RFC7159]. Fields names and descriptions are provided in English, and all files are encoded in UTF-8 [TODO].
 A JSON schema defined in [TODO] allows to validate these files.
 
 As an exemple, project [TODO] provides a FIX message parser that use all JSON representation of the FIX protocol fields in order to provide a contextual set of information related to each tag present in a given FIX message.
@@ -32,3 +33,4 @@ As an exemple, project [TODO] provides a FIX message parser that use all JSON re
 [8]: http://google.com/        "Google"
 [9]: http://google.com/        "Google"
 
+[RFC7159]: https://tools.ietf.org/html/rfc7159
