@@ -1,5 +1,5 @@
 # fix-protocol-dictionary-json
-This repository contains a set of JSON-formatted files containing the allowed FIX (Financial Information eXchange) fields, depending of the FIX protocol version.
+This repository hosts a set of JSON-formatted files containing the allowed FIX (Financial Information eXchange) fields, depending of the FIX protocol version.
 
 These JSON files are build and maintained based on the work made by the FIX community:
 
